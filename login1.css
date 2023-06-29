@@ -1,0 +1,161 @@
+body{
+	margin:0;
+	padding:0;
+	 
+}
+.new{
+	position:fixed;
+	top:0;
+	background-color:rgba(0,0,0,0.3) ;
+	color:black;
+	width:100%;
+	padding:20px;
+}
+.new tr td a{
+	text-decoration:none;
+	color:white;
+}
+.new tr td:hover{
+	background-color:yellow;
+	border-radius:20px;
+}
+.new tr td a:hover{
+	color:black;
+}
+.table tr td{
+	width:80%;
+}
+
+#login-form
+{
+    /*display: none;*/
+}
+.form-box
+{
+	left:700px;
+	top:109px;
+    width:380px;
+	height:470px;
+	position:fixed;
+	margin:2% auto;
+	background:rgba(0,0,0,0.6);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 10px 9px gray;
+	border-radius: 30px;
+	text-align:center;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+	color:black;
+	font-size:14px;
+	font-family:Serif;
+}
+.toggle-btn:hover{
+	color:white;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: lightyellow;
+	border-radius: 30px;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.4s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.4s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid gray;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: lightyellow;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-size:20px;
+}
+.submit-btn a{
+	text-decoration:none;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:white;
+	font-size:15px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:17px;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+.box{
+	position:fixed;
+	left:96px;
+	top:78px;
+	background-color:rgba(0,0,0,0.1);
+	color:darksalmon;
+	padding:30px;
+	width:25%;
+	font-size:100px;
+	text-align:top;
+	border-radius:40px;
+}

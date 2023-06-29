@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.new{
+	position:relative;
+	top:0;
+	background-color:rgba(0,0,0,0.2) ;
+	color:black;
+	width:100%;
+	padding:20px;
+}
+.new tr td a{
+	text-decoration:none;
+	color:white;
+}
+.new tr td:hover{
+	background-color:yellow;
+	border-radius:20px;
+}
+.new tr td a:hover{
+	color:black;
+}
+	 
+	 
+body{
+    background-color: silver;
+     
+}
+
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+}
+.heading{
+    background-color: #cb202d;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding: 50px 0 20px 0;
+    grid-column: 1/-1;
+    text-align: center;
+
+
+}
+.heading>h1{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.heading>h3{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 10px;
+	 
+}
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 0 20px;
+	background-color:lavender;
+	
+}
+.menu a
+{
+	text-decoration:none;
+	color: white;
+	dispaly: block;
+}
+.food-items:hover
+{
+	    transform:scale(1.08);
+		transition: 0.5s;
+}
+
+
+
+.food-items img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+	transition: 1s;
+}
+.box:hover{
+	    transform:scale(1.3);
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    text-align: center;
+}
+.details>p{
+    color: grey;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    align-self: stretch;
+	font-family:Showcard Gothic;
+}
+.details>button{
+	
+    background-color: #cb202d;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 290px;
+	
+}
+
+
+button:hover{
+    transform:scale(0.95);
+}

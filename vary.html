@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Varieties</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="vary.css">
+</head>
+<body background="xyz.JPG" style="background-repeat:no-repeat;background-size:100%100%; background-attachment:fixed">
+<div class="new">
+		<table border="0" width="95%" height="10%">
+		<tr>
+		<td width="8%" align="center"><font color="white" size="5"><a href="Try.html">Home</a></td>
+		<td width="7%" align="center"><font color="white" size="5"><a href="menu1.html">Menu</a></td>
+		<td width="8%" align="center"><font color="white" size="5"><a href="vary.html">Varieties</a></td>
+		<td width="8%" align="center"><font color="white" size="5"><a href="Index.html">Reservation</a></td>
+		<td width="8%" align="center"><font color="white" size="5"><a href="Aboutus.html">About Us</a></td>
+		<td width="9%" align="center"><font color="white" size="5"><a href="contactus.html">Contact Us</a></td>
+		<td width="9%" align="center"><font color="white" size="5"><a href="Login.html">login</a></td>
+		</tr>
+		</table>
+	</div>
+ <br> <br> <br> 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="1.jpg" style="width:70%">
+  <div class="text"><h2 style="color:black;font-family:serif;font-size:40px">Vetrai Pot Biriyani</h2><p>Rs:230/-</p>"See Biriyani Eat Biriyani Like a Pro"</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="2.jpg" style="width:70%">
+  <div class="text"><h2 style="color:black;font-family:serif;font-size:40px">Forefast </h2><p>Rs:70/-</p> "Try Our Mouth-Watering Masala Dose"</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="3.jpg" style="width:70%">
+  <div class="text"><h2 style="color:black;font-family:serif;font-size:40px">Mega Veg Thali</h2><p>Rs:100/-</p>"Soft Flaky and Layered"</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="4.jpg" style="width:70%">
+  <div class="text"><h2 style="color:black;font-family:serif;font-size:40px"> Hilsa Grilled Fish</h2><p>Rs:250/-</p>"The Sea Food is Next Level"</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="5.jpg" style="width:70%">
+  <div class="text"><h2 style="color:black;font-family:serif;font-size:40px">Mexican Green Wave Pizza</h2><p style="color:black">Rs:170/-</p>"There is no better feeling in the world than a warm Pizza box on your Lap"</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br><br><br><br><br>
+</tr>
+</td>
+<td>
+	<tr>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+</tr>
+</td
+</table>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
